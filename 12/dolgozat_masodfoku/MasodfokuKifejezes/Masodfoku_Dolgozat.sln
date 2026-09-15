@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasodfokuKifejezes", "MasodfokuKifejezes\MasodfokuKifejezes.csproj", "{D8BFD61A-82BC-4A8C-9C1D-61F05578A3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{516B1653-C05C-46B1-B3C2-68BFFEAED05C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BFD61A-82BC-4A8C-9C1D-61F05578A3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BFD61A-82BC-4A8C-9C1D-61F05578A3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BFD61A-82BC-4A8C-9C1D-61F05578A3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BFD61A-82BC-4A8C-9C1D-61F05578A3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516B1653-C05C-46B1-B3C2-68BFFEAED05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516B1653-C05C-46B1-B3C2-68BFFEAED05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516B1653-C05C-46B1-B3C2-68BFFEAED05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516B1653-C05C-46B1-B3C2-68BFFEAED05C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7199E972-D1DE-442F-9E4F-6374BA5457DA}
+	EndGlobalSection
+EndGlobal

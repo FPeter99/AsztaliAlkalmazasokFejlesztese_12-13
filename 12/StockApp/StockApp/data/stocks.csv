@@ -1,0 +1,16 @@
+Ticker;Name;IsETF;PriceUSD
+AAPL;Apple Inc.;false;192.35
+MSFT;Microsoft Corporation;false;418.20
+GOOGL;Alphabet Inc.;false;175.60
+AMZN;Amazon.com Inc.;false;182.15
+TSLA;Tesla Inc.;false;245.80
+NVDA;NVIDIA Corporation;false;610.40
+META;Meta Platforms Inc.;false;512.30
+SPY;SPDR S&P 500 ETF Trust;true;523.15
+QQQ;Invesco QQQ Trust;true;448.90
+VTI;Vanguard Total Stock Market ETF;true;267.45
+VOO;Vanguard S&P 500 ETF;true;482.10
+ARKK;ARK Innovation ETF;true;42.75
+JPM;JPMorgan Chase & Co.;false;201.60
+BAC;Bank of America Corp.;false;39.80
+XLF;Financial Sector ETF;true;41.25

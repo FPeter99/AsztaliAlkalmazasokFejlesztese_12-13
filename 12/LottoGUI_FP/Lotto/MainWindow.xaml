@@ -1,0 +1,63 @@
+﻿<Window x:Class="Lotto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lotto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="400">
+    <StackPanel Margin="10">
+        <GroupBox Header="Játékmód">
+            <Grid Margin="0,5,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <RadioButton Content="ötös"
+                     x:Name="RB_otos"
+                     Grid.Column="0"
+                     HorizontalAlignment="Center"
+                     GroupName="JatekTipus"
+                     Checked="Jatekmod_kivalasztas"/>
+                <RadioButton Content="hatos"
+                     x:Name="RB_hatos"
+                     Grid.Column="1"
+                     HorizontalAlignment="Center"
+                     IsChecked="True"
+                     GroupName="JatekTipus"
+                     Checked="Jatekmod_kivalasztas"/>
+                <RadioButton Content="skandináv"
+                     x:Name="RB_skandinav"
+                     Grid.Column="2"
+                     HorizontalAlignment="Center"
+                     GroupName="JatekTipus"
+                     Checked="Jatekmod_kivalasztas"/>
+            </Grid>
+        </GroupBox>
+
+        <UniformGrid x:Name="LottoGrid" 
+                     Margin="0,15,0,15"
+                     Height="300" 
+                     Width="300"
+                     HorizontalAlignment="Center">
+        </UniformGrid>
+
+        <Button Content="Sorsolás"
+                x:Name="BT_sorsolas"
+        Height="25"
+        Width="60"
+        Margin="0,20,0,0"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top"
+        Click="Sorsolas_Click"/>
+
+        <TextBox x:Name="Eredmeny"
+         Margin="0,10,0,0"
+         TextAlignment="Center"
+         IsReadOnly="True"
+         BorderThickness="0"/>
+
+    </StackPanel>
+</Window>

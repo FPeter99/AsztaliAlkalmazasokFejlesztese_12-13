@@ -1,0 +1,41 @@
+﻿<Window x:Class="StockWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    
+    <StackPanel Width="300">
+
+        <TextBlock Text="fajta:" Margin="0,10,0,5"/>
+
+        <ComboBox x:Name="CB_fajta" SelectionChanged="CB_fajta_SelectionChanged"/>
+
+        <TextBlock Text="ticker" Margin="0,10,0,5"/>
+
+        <ComboBox x:Name="CB_ticker" SelectionChanged="CB_ticker_SelectionChanged"  IsEnabled="False"/>
+
+        <TextBlock Text="penznem" Margin="0,10,0,5"/>
+
+        <ComboBox x:Name="CB_penznem" Margin="0,0,0,20" SelectionChanged="CB_penznem_SelectionChanged"/>
+
+
+        <GroupBox x:Name="GB_reszletek"
+          Header="Részletek"
+          Visibility="Hidden"
+          Margin="0,10,0,0">
+
+            <StackPanel Margin="10">
+
+                <TextBlock x:Name="txtInfo"
+                   FontSize="14"/>
+
+            </StackPanel>
+
+        </GroupBox>
+
+    </StackPanel>
+
+</Window>

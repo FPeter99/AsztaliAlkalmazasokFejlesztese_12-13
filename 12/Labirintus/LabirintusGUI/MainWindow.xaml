@@ -1,0 +1,42 @@
+﻿<Window x:Class="LabirintusGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabirintusGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="500">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,10,0,10">
+            <TextBlock Text="Labirintus mérete [sor x oszlop]:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+
+            <ComboBox x:Name="RowCombo" Width="60" SelectionChanged="SizeChanged"/>
+
+            <TextBlock Text=" x " VerticalAlignment="Center" Margin="5,0"/>
+
+            <ComboBox x:Name="ColCombo" Width="60" SelectionChanged="SizeChanged"/>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,10">
+            <Button Content="Labirintus mentése" Width="130" Click="Save_Click"/>
+            <ComboBox Width="60" Margin="10,0,0,0" x:Name="Nev">
+
+            </ComboBox>
+        </StackPanel>
+
+
+        <UniformGrid Grid.Row="2" x:Name="LabGrid" Rows="12" Columns="12" Margin="0,15,0,0" Height="300" Width="300">
+
+
+        </UniformGrid>
+
+    </Grid>
+</Window>

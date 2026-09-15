@@ -1,0 +1,13 @@
+CurrencyId;Code;Name;UnitsPerUSD
+1;USD;US Dollar;1.00
+2;EUR;Euro;0.92
+3;GBP;British Pound;0.78
+4;JPY;Japanese Yen;151.35
+5;CHF;Swiss Franc;0.88
+6;AUD;Australian Dollar;1.52
+7;CAD;Canadian Dollar;1.36
+8;CNY;Chinese Yuan;7.24
+9;SEK;Swedish Krona;10.65
+10;NOK;Norwegian Krone;10.95
+11;HUF;Hungarian Forint;365.25
+12;PLN;Polish Zloty;4.02

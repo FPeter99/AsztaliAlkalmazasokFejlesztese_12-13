@@ -1,0 +1,33 @@
+﻿<Window x:Class="Konyvjelzo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Konyvjelzo"
+        mc:Ignorable="d"
+        Title="Könyvtárkezelő alkalmazás" Height="450" Width="800">
+    <StackPanel>
+
+        <WrapPanel Name ="wp_konyvtar" Height="280" Width="700" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,10">
+
+            <ListBox x:Name="lb_Konyvek" Height="280" Width="700" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+
+                <ListBoxItem>
+                   <TextBlock FontSize="20" Text="A pénz pszihológiája - Morgan Housel"/>
+                </ListBoxItem>
+
+                <ListBoxItem>
+                    <TextBlock FontSize="20" Text="Ikerprímek végtelenségének bizonyítása - G. Roland"/>
+                </ListBoxItem>
+
+            </ListBox>
+
+
+        </WrapPanel>
+
+        <WrapPanel Height="100" VerticalAlignment="Top">
+            <Button Content="Könyv hozzáadása" Click="bt_Hozzaadas" Width="140" Height="20" Margin="3,3,3,3"/>
+            <Button Content="Törlése" Click="bt_Torles" Width="80" Margin="10"/>
+        </WrapPanel>
+    </StackPanel>
+</Window>
