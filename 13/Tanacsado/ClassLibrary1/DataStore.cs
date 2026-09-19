@@ -38,7 +38,9 @@ namespace ClassLibrary1
 
         public int tobbMintHaromOra() => Talalkozok.Count(x => x.idotartam >= 3);
 
+        public Tanacsado NevAlapu(string n) => Tanacsadok.FirstOrDefault(x => x.nev == n)!;
 
+        public List<Tanacsado> legtobbetkeresok => Tanacsadok.OrderByDescending(x => x.oradij * (Talalkozok.Count(y => y.tanacsadoId == x.tanacsadoId))).Take(3).ToList();
 
     }
 }
