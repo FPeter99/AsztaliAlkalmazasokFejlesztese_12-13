@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HanoiTeszt/HanoiTeszt.csproj" />
+  <Project Path="HanoiTornyai/HanoiTornyai.csproj" />
+</Solution>
