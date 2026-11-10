@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ActivatetionCodeValidator_Tests/ActivatetionCodeValidator_Tests.csproj" />
+  <Project Path="AktivaloKod_Lib/ActivatetionCodeValidator_lib.csproj" />
+</Solution>
