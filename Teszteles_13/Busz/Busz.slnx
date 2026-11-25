@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Busz/Busz.csproj" />
+  <Project Path="BuszTeszt/BuszTeszt.csproj" />
+</Solution>
