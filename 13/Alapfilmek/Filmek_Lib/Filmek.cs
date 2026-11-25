@@ -25,5 +25,10 @@ namespace Filmek_Lib
             hossz = Convert.ToInt32(sorelem[5]);
 
         }
+
+        public override string ToString()
+        {
+            return cim;
+        }
     }
 }

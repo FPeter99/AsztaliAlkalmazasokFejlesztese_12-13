@@ -21,5 +21,10 @@
                 ? null
                 : DateOnly.ParseExact(sorelem[2], "yyyy.MM.dd");
         }
+
+        public override string ToString()
+        {
+            return nev;
+        }
     }
 }

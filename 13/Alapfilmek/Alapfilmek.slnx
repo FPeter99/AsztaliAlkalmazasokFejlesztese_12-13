@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Alapfilmek/Alapfilmek.csproj" />
+  <Project Path="AlapfilmekGUI/AlapfilmekGUI.csproj" Id="ed414fcf-efc4-4b4e-a03b-85ee8d40283c" />
   <Project Path="Filmek_Lib/Filmek_Lib.csproj" />
 </Solution>
